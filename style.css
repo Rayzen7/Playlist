@@ -262,13 +262,16 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-left: -20px;
-    width: 100%;
+    margin-left: 0px;
+    width: 110%;
     overflow: hidden;
+    transform: translateX(0);
   }
 
-  a li {
+  .navbar a {
     font-size: 14px;
-    margin-left: 5px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
   }
 }
