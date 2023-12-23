@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song Playlist</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Ray<span>zen7</span></div>
+      <ul>
+        <a href="https://www.instagram.com/rayzen7_/"><li>Instagram</li></a>
+        <a href="https://www.youtube.com/channel/UCf9y1S2ThGCYRz5iIm6M3hA"
+          ><li>Youtube</li></a
+        >
+        <a
+          href="https://api.whatsapp.com/send/?phone=6281219538787&text&type=phone_number&app_absent=0"
+          ><li>Contact</li></a
+        >
+      </ul>
+    </div>
+
+    <audio src="" id="audio"></audio>
+
+    <div class="music-player">
+      <h1 class="music-name">Janji Kasih</h1>
+      <p class="artist-name">Tiara Andini</p>
+      <div class="disk"></div>
+      <div class="song-slider">
+        <input type="range" value="0" class="seek-bar" />
+        <span class="current-time">00:00</span>
+        <span class="song-duration">00:00</span>
+      </div>
+
+      <div class="controls">
+        <button class="btn backward-btn">
+          <img src="materials/pre.png" alt="" />
+        </button>
+        <button class="play-btn pause">
+          <span></span>
+          <span></span>
+        </button>
+        <button class="btn forward-btn">
+          <img src="materials/next.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="element.js"></script>
+  </body>
+</html>
