@@ -254,3 +254,16 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* Media query untuk perangkat dengan lebar maksimum 600px (handphone) */
+@media only screen and (max-width: 480px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: -20px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
