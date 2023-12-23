@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px;
+  margin: 0;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   width: 100%;
@@ -262,14 +262,14 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-left: 0px;
-    width: 115%;
+    margin: 0px;
+    width: 100%;
     overflow: hidden;
     transform: translateX(0);
   }
 
   .navbar a {
-    font-size: 14px;
+    font-size: 10px;
     margin: 5px 0;
     width: 100%;
     text-align: center;
