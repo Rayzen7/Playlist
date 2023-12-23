@@ -266,4 +266,9 @@ body {
     width: 100%;
     overflow: hidden;
   }
+
+  a li {
+    font-size: 14px;
+    margin-left: 5px;
+  }
 }
