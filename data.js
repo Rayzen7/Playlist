@@ -45,7 +45,7 @@ let songs = [
     name: "Kenanglah Aku",
     path: "Song/Naff - Kenanglah Aku  Video Lirik.mp3",
     artist: "Naff",
-    cover: "Img/kenanglah-aku.jpg",
+    cover: "Img/Kenanglah-aku.jpg",
   },
   {
     name: "Jaga Selalu Hatimu",
@@ -81,7 +81,7 @@ let songs = [
     name: "Kisinan",
     path: "Song/KISINAN - MASDDDHO (OFFICIAL MUSIC VIDEO).mp3",
     artist: "Masdddho",
-    cover: "Img/kisinan.jpg",
+    cover: "Img/kisinan.jpeg",
   },
   {
     name: "Aku Kamu dan Samudra",
