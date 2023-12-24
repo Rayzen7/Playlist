@@ -61,6 +61,9 @@ const formatTime = (time) => {
 setInterval(() => {
   seekBar.value = music.currentTime;
   currentTime.innerHTML = formatTime(music.currentTime);
+  if (Math.floor(music.currentTime) == Math.floor(seekBar.max)) {
+    forwardBtn.click();
+  }
 }, 500);
 
 seekBar.addEventListener("change", () => {

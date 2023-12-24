@@ -134,7 +134,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #5f7a61;
+  background: var(--primary-color);
 }
 
 .song-slider {
@@ -155,8 +155,8 @@ body {
   -webkit-appearance: none;
   width: 1px;
   height: 20px;
-  background: #5f7a61;
-  box-shadow: -400px 0 0 400px #5f7a61;
+  background: var(--primary-color);
+  box-shadow: -400px 0 0 400px var(--primary-color);
 }
 
 .current-time,
@@ -196,7 +196,7 @@ body {
   width: 10px;
   height: 30px;
   border-radius: 2px;
-  background: #5f7a61;
+  background: var(--primary-color);
   transition: 0.5s;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -227,10 +227,10 @@ body {
     box-shadow: 0;
   }
   50% {
-    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 5px var(--primary-color);
   }
   100% {
-    box-shadow: 0 0 0 px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 px var(--second-color);
   }
 }
 
@@ -274,4 +274,8 @@ body {
     width: 100%;
     text-align: center;
   }
+}
+
+.music-player {
+  scale: 80%;
 }
